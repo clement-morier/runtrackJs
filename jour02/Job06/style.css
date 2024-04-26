@@ -1,0 +1,10 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.platform {
+    background-color: #3374FF;
+    color: white;
+    font-family: Arial, sans-serif;
+}
