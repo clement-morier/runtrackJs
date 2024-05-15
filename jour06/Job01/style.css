@@ -1,0 +1,23 @@
+.title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul.pagination {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+  }
+  ul.list-group {
+    width: 200px;
+  }
+  .col-md-7 {
+    margin: 35px;
+  }
+  
+  footer {
+    height: 400px;
+  }
+  .jumbotron {
+    background-color: lightgrey;
+  }
