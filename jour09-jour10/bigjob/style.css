@@ -1,0 +1,54 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(141, 54, 223);
+    width: 30vw;
+    margin-left: 30vw;
+    margin-top: 50px;
+    padding: 30px;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(141, 54, 223);
+  }
+  button {
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw;
+  
+    padding: 10px 20px;
+    background-color: rgb(115, 115, 204);
+    border: solid 1px black;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    border: solid 1px;
+    padding: 2px;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+  #connexion {
+    width: 17vw;
+    margin-left: 50px;
+  }
+  #motdepasse {
+    margin-bottom: 1rem;
+  }
