@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job5</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="flex items-center justify-between p-6 lg:px-8"
+        aria-label="Global"
+      >
+        <div class="flex lg:flex-1">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img
+              class="h-10 w-auto"
+              src="/Jour 8/job5/images/loom-logo-A703F371A3-seeklogo.com.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="flex lg:hidden">
+          <button
+            type="button"
+            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="hidden lg:flex lg:gap-x-12">
+          <!-- Premiers liens -->
+          <div class="relative group h-full">
+            <!-- Lien avec flèche -->
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-gray-900 flex items-center h-full"
+            >
+              Use Cases
+              <!-- Flèche -->
+              <svg
+                class="h-4 w-4 ml-1 fill-current text-gray-500 group-hover:text-gray-700 transition duration-300"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 12l-7-7 1.5-1.5L10 9l5.5-5.5L17 5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <!-- Options -->
+            <div
+              class="hidden absolute z-10 left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 group-hover:block"
+            >
+              <div
+                class="py-1"
+                role="menu"
+                aria-orientation="vertical"
+                aria-labelledby="options-menu"
+              >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 1</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 2</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 3</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="relative group h-full">
+            <!-- Lien avec flèche -->
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-gray-900 flex items-center h-full"
+            >
+              For Business
+              <!-- Flèche -->
+              <svg
+                class="h-4 w-4 ml-1 fill-current text-gray-500 group-hover:text-gray-700 transition duration-300"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 12l-7-7 1.5-1.5L10 9l5.5-5.5L17 5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <!-- Options -->
+            <div
+              class="hidden absolute z-10 left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 group-hover:block"
+            >
+              <div
+                class="py-1"
+                role="menu"
+                aria-orientation="vertical"
+                aria-labelledby="options-menu"
+              >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 1</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 2</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 3</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="relative group h-full">
+            <!-- Lien avec flèche -->
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-gray-900 flex items-center h-full"
+            >
+              Ressources
+              <!-- Flèche -->
+              <svg
+                class="h-4 w-4 ml-1 fill-current text-gray-500 group-hover:text-gray-700 transition duration-300"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 12l-7-7 1.5-1.5L10 9l5.5-5.5L17 5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <!-- Options -->
+            <div
+              class="hidden absolute z-10 left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 group-hover:block"
+            >
+              <div
+                class="py-1"
+                role="menu"
+                aria-orientation="vertical"
+                aria-labelledby="options-menu"
+              >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 1</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 2</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 3</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="relative group h-full">
+            <!-- Lien avec flèche -->
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-gray-900 flex items-center h-full"
+            >
+              Company
+              <!-- Flèche -->
+              <svg
+                class="h-4 w-4 ml-1 fill-current text-gray-500 group-hover:text-gray-700 transition duration-300"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 12l-7-7 1.5-1.5L10 9l5.5-5.5L17 5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <!-- Options -->
+            <div
+              class="hidden absolute z-10 left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 group-hover:block"
+            >
+              <div
+                class="py-1"
+                role="menu"
+                aria-orientation="vertical"
+                aria-labelledby="options-menu"
+              >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 1</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 2</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  >Option 3</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Autres liens -->
+          <div class="h-full">
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-gray-900 h-full"
+              >Princing</a
+            >
+          </div>
+          <div class="h-full">
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-gray-900 h-full"
+              >Sign in</a
+            >
+          </div>
+          <div class="h-full">
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-gray-900 rounded-full bg-indigo-600 hover:bg-blue-600 px-6 py-4 h-full"
+              >Get Loom for Free</a
+            >
+          </div>
+          <div class="h-full">
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-gray-900 rounded-full bg-gray-500 hover:bg-gray-600 px-6 py-4 h-full"
+              >Contact sales</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- Mobile menu, show/hide based on menu open state. -->
+      <div class="lg:hidden" role="dialog" aria-modal="true">
+        <!-- Background backdrop, show/hide based on slide-over state. -->
+        <div class="fixed inset-0 z-50"></div>
+        <div
+          class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+        >
+          <div class="flex items-center justify-between">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Your Company</span>
+              <img
+                class="h-8 w-auto"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                alt=""
+              />
+            </a>
+            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+              <span class="sr-only">Close menu</span>
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="bg-violet-200 h-screen">
+      <div class="bg-blue-100 h-screen flex items-center justify-center">
+        <!-- Div centrale à gauche -->
+        <div class="w-1/2 p-8">
+          <h1 class="text-7xl font-bold mb-4">Loom on.</h1>
+          <h1 class="text-7xl font-bold mb-4">Meetings off.</h1>
+          <p class="text-lg">Record quick videos to update your team</p>
+          <p class="text-lg">and cut down meetings by 29%</p>
+          <button
+            class="rounded-full text-white text-2xl bg-indigo-600 hover:bg-gray-600 px-24 py-6 h-full font-bold"
+          >
+            Get Loom for Free
+          </button>
+        </div>
+
+        <!-- Div à droite -->
+        <div class="flex-1 px-16 py-16 bg-violet-400 rounded-3xl">
+          <!-- Div avec border radius et contenu -->
+          <div class="rounded-3xl bg-white p-16">
+            <div class="flex items-center mb-4">
+              <!-- Petite photo -->
+              <div class="w-18 h-18 bg-gray-300 rounded-full mr-4">
+                <img
+                  class="rounded"
+                  src="/Jour 8/job5/images/pexels-pixabay-415829.jpg"
+                  alt=""
+                />
+              </div>
+              <!-- Titre et texte -->
+              <div>
+                <h2 class="text-lg font-bold">Soraya</h2>
+                <p>
+                  Hey team -- I know there's a lot going on today so let's do
+                  our project update via Loom and get some time back:
+                </p>
+              </div>
+            </div>
+            <!-- Grande image en dessous -->
+            <div class="flex flex-col items-start" style="height: 250px">
+              <!-- Div contenant l'image -->
+              <div class="mb-4">
+                <img
+                  class="rounded w-10/11"
+                  src="/Jour 8/job5/images/OIP.jpg"
+                  alt="image"
+                />
+              </div>
+
+              <!-- Div contenant l'icône et le texte "3" -->
+              <div class="flex items-center">
+                <img
+                  class="h-8 w-8 mr-2"
+                  src="/Jour 8/job5/images/Fire-Emoji-PNG-Photo.png"
+                  alt=""
+                />
+                <p>3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
